@@ -1,0 +1,43 @@
+.Contact-us {
+    margin: 100px auto;
+    width: 1000px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 600px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr; */
+  }
+.form-inputs {
+    /* margin-bottom: 0.2rem; */
+    width: 80%;
+  }
+/*   
+  .form-inputs p {
+    font-size: 0.8rem;
+    margin-top: 0.5rem;
+    color: #f00e0e;
+  }
+   */
+  .form-label {
+    display: inline-block;
+    font-size: 0.8rem;
+    /* margin-bottom: 6px; */
+    color: blueviolet;
+  }
+  
+  .form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+  
+  .form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }
+  
