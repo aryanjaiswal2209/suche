@@ -2,27 +2,24 @@ import {signInWithGoogle} from '../Firebase/Firebase'
 import {signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
 import{getAuth} from 'firebase/auth'
 import { useState } from 'react';
-export const auth = getAuth();
+import {auth} from '../Firebase/Firebase'
 const provider = new GoogleAuthProvider()
-export const Navigation = (props) => {
+export const Navigation = ({isSignedin,setAdminsignedin}) => {
 
-  const [isSignedin,setisSignedin] = useState(false);
+
   const [userdata,setUserdata] = useState("");
 
     const signInWithGoogle = () => {
 
-      signInWithPopup(auth,provider).then((result) =>{
-      
-          
-          setUserdata(result.user.email);
-          setisSignedin(true);
+      signInWithPopup(auth,provider).then((result) =>{      
+
+
           console.log(result.user.email);
           console.log(userdata);
-          if(userdata == "vedant.kangde@gmail.com" ){
+          if(result.user.email == "vedant.kangde@gmail.com" ){
 
-              // setAdminsignedin(true)
-              // console.log("setadminsignedin")
-              setUserdata("")
+              setAdminsignedin(true)
+             
           }
 
       }).catch((error) => {
@@ -35,8 +32,7 @@ export const Navigation = (props) => {
 const signout = () => {
 
  auth.signOut().then(() => {
-  setisSignedin(false);
-  // setAdminsignedin(false)
+  setAdminsignedin(false)
      console.log('logged out');
  })
  .catch((error) => {
@@ -96,25 +92,23 @@ const signout = () => {
             </li>
             <li>
             <div className='col-md-8 col-md-offset-2 intro-text'>
-                <button
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-               {!isSignedin ? (
+                
+               {!isSignedin? (
 
 <>
-   <button onClick={signInWithGoogle}>Signin</button>
+   <button className='btn btn-custom btn-lg page-scroll' onClick={signInWithGoogle}>Signin</button>
 </>
 
 ):( 
   
   <>
-   <button onClick={signout}>Signout</button>
+   <button className='btn btn-custom btn-lg page-scroll' onClick={signout}>Signout</button>
   </>
 
 )
 
 }
-                </button>
+               
                 </div>
             </li>
             
