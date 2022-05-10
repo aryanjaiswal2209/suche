@@ -2,8 +2,11 @@ import {signInWithGoogle} from '../Firebase/Firebase'
 import {signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
 import{getAuth} from 'firebase/auth'
 import { useState } from 'react';
+//import img from '../../public/img/Header/logo.png'
 export const auth = getAuth();
+
 const provider = new GoogleAuthProvider()
+
 export const Navigation = (props) => {
 
   const [isSignedin,setisSignedin] = useState(false);
@@ -59,9 +62,10 @@ const signout = () => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand page-scroll' href='#page-top'>
+          {/* <a className='navbar-brand page-scroll' href='#page-top'>
             SUCHE
-          </a>{' '}
+          </a>{' '} */}
+          {/* <img src={img}></img> */}
         </div>
 
         <div

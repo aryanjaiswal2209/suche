@@ -4,10 +4,9 @@ export const Team = (props) => {
     <div id='team' className='text-center'>
       <div className='container'>
         <div className='col-md-8 col-md-offset-2 section-title'>
-          <h2 className="color-white">Meet the Team</h2>
+          <h2 className="color-white">Founder</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+          Veni Rawal is a TISS graduate with over 16 years of professional work experience across industries. He has completed several search assignments across Middle East, South Asia and India location with organizations of repute. He comes with a unique combination of Human Resource & Talent Acquisition experience spanning across multiple industries like Payment Business, Packaging, Industrial Technologies, Banking & Financial Services, BPO and IT Services.
           </p>
         </div>
         <div id='row'>

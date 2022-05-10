@@ -450,15 +450,19 @@ header .intro-text {
   color: white;
 }
 #team .team-img {
+  align-items: center;
+  margin-left: 410px;
   width: 240px;
 }
 #team .thumbnail {
   background: transparent;
   border: 0;
+  
 }
 #team .thumbnail .caption {
   padding: 10px 0 0;
   color:white;
+  
 }
 .color-white{
   color:white;
