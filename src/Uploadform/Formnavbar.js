@@ -1,4 +1,5 @@
 import React from 'react'
+import {Link} from 'react-router-dom'
 
 const Formnavbar = () => {
   return (
@@ -17,9 +18,9 @@ const Formnavbar = () => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          <a className='navbar-brand' href='/'>
+          <Link className='navbar-brand' to='/'>
             BACK
-          </a>{' '}
+          </Link>{' '}
         </div>
 
         <div

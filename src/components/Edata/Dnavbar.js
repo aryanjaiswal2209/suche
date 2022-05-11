@@ -1,13 +1,13 @@
 import React from 'react'
-
+import {Link} from 'react-router-dom'
 const Dnavbar = () => {
   return (
     <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
-          <a className='navbar-brand ' href='/'>
+          <Link className='navbar-brand ' to='/'>
             BACK
-          </a>
+          </Link>
         </div>
       </div>
     </nav>

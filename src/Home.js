@@ -11,16 +11,16 @@ import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
 
-const Home = ({isSignedin,setIsSignedin}) => {
+const Home = () => {
     const [landingPageData, setLandingPageData] = useState({});
-    const [adminsignedin,setAdminsignedin] = useState(false);
+   
   useEffect(() => {
     setLandingPageData(JsonData);
   }, []);
   return (
     <div>
-      <Navigation setAdminsignedin={setAdminsignedin}  isSignedin={isSignedin} setIsSignedin={setIsSignedin} />
-      <Header data={landingPageData.Header} adminsignedin={adminsignedin} />
+      <Navigation />
+      <Header data={landingPageData.Header}  />
       {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />

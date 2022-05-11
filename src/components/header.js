@@ -1,10 +1,10 @@
 import { useStore } from "../State/States";
-
+import {Link} from 'react-router-dom'
 
 export const Header = (props) => {
 
   const adminsignedin = useStore((state) => state.adminsignedin);
-  console.log(adminsignedin)
+  
   return (
     <header id='header'>
       <div className='intro'>
@@ -21,20 +21,20 @@ export const Header = (props) => {
               
               {!adminsignedin ? (
                   <>
-                   <a  href="/Form">
+                   <Link  to="/Form">
               <button className='btn btn-custom btn-lg page-scroll'>
                 Apply now
               </button>
-              </a>
+              </Link>
                   </>
                 ):(
 
                   <>
-              <a  href="/Applications">
+              <Link  to="/Applications">
               <button className='btn btn-custom btn-lg page-scroll'>
                 View
               </button>
-              </a>
+              </Link>
            
           
 

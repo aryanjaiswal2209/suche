@@ -3,11 +3,12 @@ import React, { useEffect, useState } from 'react'
 import { Container, Wrapper, Card, H1} from './displayElements'
 import { db } from '../../Firebase/Firebase';
 import Dnavbar from './Dnavbar'
-
+import { useStore} from "../../State/States";
 const DisplayInformation = () => {
 
     const [articles, setArticles] = useState([]);
-
+ 
+    const setAdminsignedin = useStore((state) => state.setAdminsignedin);
     useEffect(() => {
         const articleRef = collection(db, "Articles");
         const q = query(articleRef, orderBy("createdAt", "desc"));
@@ -17,7 +18,8 @@ const DisplayInformation = () => {
             ...doc.data(),
           }));
           setArticles(articles);
-          console.log(articles);
+          // setAdminsignedin(true);
+          
         });
       }, []);
 
