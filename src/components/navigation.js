@@ -2,30 +2,24 @@ import {signInWithGoogle} from '../Firebase/Firebase'
 import {signInWithPopup, GoogleAuthProvider, signOut } from "firebase/auth";
 import{getAuth} from 'firebase/auth'
 import { useState } from 'react';
-//import img from '../../public/img/Header/logo.png'
-export const auth = getAuth();
-
+import {auth} from '../Firebase/Firebase'
 const provider = new GoogleAuthProvider()
+export const Navigation = ({isSignedin,setAdminsignedin}) => {
 
-export const Navigation = (props) => {
 
-  const [isSignedin,setisSignedin] = useState(false);
   const [userdata,setUserdata] = useState("");
 
     const signInWithGoogle = () => {
 
-      signInWithPopup(auth,provider).then((result) =>{
-      
-          
-          setUserdata(result.user.email);
-          setisSignedin(true);
+      signInWithPopup(auth,provider).then((result) =>{      
+
+
           console.log(result.user.email);
           console.log(userdata);
-          if(userdata == "vedant.kangde@gmail.com" ){
+          if(result.user.email == "aryanj2209@gmail.com"  ){
 
-              // setAdminsignedin(true)
-              // console.log("setadminsignedin")
-              setUserdata("")
+              setAdminsignedin(true)
+             
           }
 
       }).catch((error) => {
@@ -38,8 +32,7 @@ export const Navigation = (props) => {
 const signout = () => {
 
  auth.signOut().then(() => {
-  setisSignedin(false);
-  // setAdminsignedin(false)
+  setAdminsignedin(false)
      console.log('logged out');
  })
  .catch((error) => {
@@ -62,9 +55,9 @@ const signout = () => {
             <span className='icon-bar'></span>{' '}
             <span className='icon-bar'></span>{' '}
           </button>
-          {/* <a className='navbar-brand page-scroll' href='#page-top'>
+          <a className='navbar-brand page-scroll' href='#page-top'>
             SUCHE
-          </a>{' '} */}
+          </a>{' '}
           {/* <img src={img}></img> */}
         </div>
 
@@ -93,32 +86,30 @@ const signout = () => {
                 Testimonials
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href='#team' className='page-scroll'>
                 Team
               </a>
-            </li>
+            </li> */}
             <li>
             <div className='col-md-8 col-md-offset-2 intro-text'>
-                <button
-                  className='btn btn-custom btn-lg page-scroll'
-                >
-               {!isSignedin ? (
+                
+               {!isSignedin? (
 
 <>
-   <button onClick={signInWithGoogle}>Signin</button>
+   <button className='btn btn-custom btn-lg page-scroll' onClick={signInWithGoogle}>Signin</button>
 </>
 
 ):( 
   
   <>
-   <button onClick={signout}>Signout</button>
+   <button className='btn btn-custom btn-lg page-scroll' onClick={signout}>Signout</button>
   </>
 
 )
 
 }
-                </button>
+               
                 </div>
             </li>
             
