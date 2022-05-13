@@ -10,13 +10,13 @@ export const Testimonials = (props) => {
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className='col-md-4'>
                   <div className='testimonial'>
-                    <div className='testimonial-image'>
-                      {' '}
-                      <img src={d.img} alt='' />{' '}
-                    </div>
+                    
                     <div className='testimonial-content'>
-                      <p>"{d.text}"</p>
-                      <div className='testimonial-meta'> - {d.name} </div>
+                      <h1><a href={d.link}>{d.heading}</a></h1>
+                      <p>{d.designation}</p>
+                      <li>{d.payscale}</li>
+                      <li>{d.experience}</li>
+                      <li>{d.location}</li>
                     </div>
                   </div>
                 </div>

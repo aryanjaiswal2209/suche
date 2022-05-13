@@ -1,7 +1,10 @@
-
-
+import OwlCarousel from "react-owl-carousel"
+import 'owl.carousel/dist/assets/owl.carousel.css';  
+import 'owl.carousel/dist/assets/owl.theme.default.css';
+  
 export const Header = (props) => {
   return (
+    
     <header id='header'>
       <div className='intro'>
         <div className='overlay'>
@@ -10,10 +13,10 @@ export const Header = (props) => {
               <div className='col-md-8 col-md-offset-2 intro-text'>
 
                 <h1>
-                  {props.data ? props.data.title : 'Loading'}
+                Welcome to Suche
                 
                 </h1>
-                <p>{props.data ? props.data.paragraph : 'Loading'}</p>
+                
               
               {!props.adminsignedin ? (
                   <>
@@ -44,5 +47,6 @@ export const Header = (props) => {
         </div>
       </div>
     </header>
+    
   )
 }

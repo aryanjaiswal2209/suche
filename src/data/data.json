@@ -68,66 +68,86 @@
   ],
   "Services": [
     {
-      "icon": "fa fa-wordpress",
+      "icon": "fa fa-laptop",
       "name": "Information Technology",
       "text": "The IT Sector is central to the nation's security, economy, and safety as businesses, governments, academia, and private citizens are increasingly dependent upon IT Sector functions."
     },
     {
-      "icon": "fa fa-cart-arrow-down",
+      "icon": "fa fa-credit-card",
       "name": "Finance",
       "text": "The financial sector is a section of the economy made up of firms and institutions that provide financial services to commercial and retail customers"
     },
     {
-      "icon": "fa fa-cloud-download",
+      "icon": "fa fa-medkit",
       "name": "Pharmaceutical",
       "text": "The pharmaceutical industry discovers, develops, produces, and markets drugs or pharmaceutical drugs for use as medications to be administered to patients ."
     },
     {
-      "icon": "fa fa-language",
+      "icon": "fa fa-car",
       "name": "Automobile",
       "text": "The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles.[1] It is one of the world's largest industries by revenue."
     },
     {
-      "icon": "fa fa-plane",
+      "icon": "fa fa-h-square",
       "name": "Hospitality",
       "text": "The hospitality industry is a broad category of fields within the service industry that includes lodging, food and drink service, event planning, theme parks, travel and tourism. It includes hotels, tourism agencies, restaurants and bars."
     },
     {
-      "icon": "fa fa-pie-chart",
+      "icon": "fa fa-cart-plus",
       "name": "Marketing",
       "text": "The Marketing and Advertising Industry Sector comprises companies providing advertising, marketing or public relations services. The Industry Sector is a classification that describes the activity of an entity within the economy."
     }
   ],
   "Testimonials": [
     {
-      "img": "img/testimonials/01.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "heading": "Private Wealth - Relationship Manager",
+      "designation": "Designation - AVP/VP/SVP",
+      "payscale":"Payscale - Upto 50 lakh + Incentives",
+      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform                             ",
+      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
+      "link":"/manager.js"
+      
     },
     {
-      "img": "img/testimonials/02.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "heading": "Team Leader - Private Wealth",
+      "designation": "Designation - Associate Director / Director",
+      "payscale":"Payscale - Upto 75 Lakhs + Bonus",
+      "experience": "Experience: Minimum 10+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform & Team management experience of handling 6+ senior private bankers",
+      "location": "Location  Mumbai / Delhi / Bangalore / Chennai",
+      "link":"/manager.js"
     },
     {
-      "img": "img/testimonials/03.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
+      "heading": "Private Wealth - Relationship Manager",
+      "designation": "Designation - AVP/VP/SVP",
+      "payscale":"Payscale - Upto 50 lakh + Incentives",
+      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform",
+      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
+      "link":"/manager.js"
     },
     {
-      "img": "img/testimonials/04.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "heading": "Content & Communication Specialist",
+      "designation": "Designation : Senior Manager / AVP",
+      "payscale":"Payscale : Upto 20 Lakhs",
+      "experience": "Experience: Minimum 5+ years in Content writing in Financial Services Industry                                                                                                                                               " ,
+      "location": "Location: Mumbai",
+      "link":"/manager.js"
+    },
+    
+    {
+      "heading": "Private Wealth - Relationship Manager",
+      "designation": "Designation - AVP/VP/SVP",
+      "payscale":"Payscale - Upto 50 lakh + Incentives",
+      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform",
+      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
+      "link":"/manager.js"
     },
     {
-      "img": "img/testimonials/05.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "John Doe"
-    },
-    {
-      "img": "img/testimonials/06.jpg",
-      "text": "\"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sedasd commodo nibh ante facilisis bibendum dolor feugiat at.\"",
-      "name": "Johnathan Doe"
+      "heading": "Private Wealth - Relationship Manager",
+      "designation": "Designation - AVP/VP/SVP",
+      "payscale":"Payscale - Upto 50 lakh + Incentives",
+      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform",
+      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
+      "link":"/manager.js"
     }
   ],
   "Team": [

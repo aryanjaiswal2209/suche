@@ -216,6 +216,17 @@ a:focus,
   background-size: cover;
   -o-background-size: cover;
 }
+.intro2 {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/solid-navy-blue-concrete-textured-wall.jpg) center center no-repeat;
+  background-color: white;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
 .intro .overlay {
   background: rgba(0, 0, 0, 0.2);
 }
@@ -295,7 +306,7 @@ header .intro-text {
   content: "\f00c";
   font-family: "FontAwesome";
   color: #5ca9fb;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 300;
   padding-right: 8px;
 }
@@ -435,6 +446,16 @@ header .intro-text {
 .testimonial-content {
   position: relative;
   overflow: hidden;
+}
+.testimonial-content h1{
+   color: black;
+}
+.testimonial-content a{
+  color: #333;
+}
+.testimonial-content h1:hover{
+  text-decoration: underline;
+  cursor: pointer;
 }
 .testimonial-content p {
   margin-bottom: 0;

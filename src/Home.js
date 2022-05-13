@@ -2,7 +2,7 @@ import React from 'react'
 import { useState, useEffect } from "react";
 import { Navigation } from "./components/navigation";
 import { Header } from "./components/header";
-
+import { OwlDemo } from "./components/owlDemo";
 import { About } from "./components/about";
 import { Services } from "./components/services";
 
@@ -20,7 +20,8 @@ const Home = ({isSignedin,setIsSignedin}) => {
   return (
     <div>
       <Navigation setAdminsignedin={setAdminsignedin}  isSignedin={isSignedin} setIsSignedin={setIsSignedin} />
-      <Header data={landingPageData.Header} adminsignedin={adminsignedin} />
+      {/* <Header data={landingPageData.Header} adminsignedin={adminsignedin} /> */}
+      <OwlDemo data={landingPageData.Header} adminsignedin={adminsignedin} />
       {/* <Features data={landingPageData.Features} /> */}
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
