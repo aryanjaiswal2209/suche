@@ -2,7 +2,7 @@ import React from 'react'
 
 const Formnavbar = () => {
   return (
-    <nav id='menu' className='navbar navbar-default navbar-fixed-top'>
+    <nav id='menu' className='navbar navbar-inverse navbar-fixed-top'>
       <div className='container'>
         <div className='navbar-header'>
           <button

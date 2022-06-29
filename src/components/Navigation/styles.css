@@ -1,0 +1,8 @@
+#menu a.navbar-brand{
+    color: #da9100;
+    text-decoration: solid;
+
+}
+.navbar-inverse .navbar-nav > li > a{
+    color: #da9100;
+}

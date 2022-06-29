@@ -5,18 +5,21 @@
     
   },
   "About": {
-    "paragraph": "Suche is an executive search firm, based in Mumbai, providing niche Talent Acquisition services for leadership hiring across industry. Search has been an integral part of human history. This unquenchable thirst for knowledge, finding new frontiers and better way of living has led humanity to where we are today. In search we exist and persistently strive towards finding better opportunities through Research, innovation and discovery.",
+    "paragraph1": "Suche is an executive search firm which came into existence due to the challenge of finding right talent in Indian Wealth Management Industry. Senior talent seeks a lot of information before making a decision to even meet a potential employer and hence it is not possible for average recruitment staff without any domain knowledge to even initiate a conversation which can lead a talent to make a decision to come on the table and explore opportunity.",
+    "paragraph2":"While working as a Human Resource Partner with several clients, our founder realized there is huge gap in the talent acquisition market and quality of profiles being presented by existing recruitment and even some top search firms compared to the expectation of their clients. This was only due to lack of domain knowledge and expertise amongst their staff and extended dependency on database acquired through job portals.",
+    "paragraph3":"We at Suche Consultants, use research methods like personal networks and knowledge, Social Media, References, Events and attendance list, Proprietary database created through years of collective research and working with Industry Professionals, Head Hunting along with Database acquired through several sources.",
+    "paragraph4":"Our best practices have helped us succeed across BFSI domain and simultaneously extended our services and best practice across IT, Manufacturing, BPO/KPO, Medical & Health Care, Hospitality",
     "Why": [
-      "Faster Assistance",
-      "Easy Process",
-      "Multiple Opportunities",
-      "Flexible Search"
+      "Domain and Industry Experts who know the business like Business does",
+      "Quicker Onboarding and Hiring Timeline",
+      "Cost Effective (Right Talent for the role is extremely cost effective while wrong hires cost a lot in terms of recruitment expenses, training and onboarding, Negative feed in market due to attrition)"
+      
     ],
     "Why2": [
-      "Large Scale Network",
-      "Long Term Association",
-      "Contribute Skills",
-      "Cost-Effective"
+      "Cost Effective",
+      "Saving Time in Tedious recruitment process",
+      "Free PR and extending brand visibility through Specialist Consultants like Suche, which has senior industry experts who can position your brand correctly amongst the talent pool"
+      
     ]
   },
   "Gallery": [
@@ -69,85 +72,154 @@
   "Services": [
     {
       "icon": "fa fa-laptop",
-      "name": "Information Technology",
+      "name": "INFORMATION & TECHNOLOGY",
       "text": "The IT Sector is central to the nation's security, economy, and safety as businesses, governments, academia, and private citizens are increasingly dependent upon IT Sector functions."
     },
     {
       "icon": "fa fa-credit-card",
-      "name": "Finance",
+      "name": "BPO & KPO",
       "text": "The financial sector is a section of the economy made up of firms and institutions that provide financial services to commercial and retail customers"
     },
     {
       "icon": "fa fa-medkit",
-      "name": "Pharmaceutical",
+      "name": "MANUFACTURING",
       "text": "The pharmaceutical industry discovers, develops, produces, and markets drugs or pharmaceutical drugs for use as medications to be administered to patients ."
     },
     {
       "icon": "fa fa-car",
-      "name": "Automobile",
+      "name": "BANKING AND FINANCIAL SERVICES",
       "text": "The automotive industry comprises a wide range of companies and organizations involved in the design, development, manufacturing, marketing, and selling of motor vehicles.[1] It is one of the world's largest industries by revenue."
     },
     {
       "icon": "fa fa-h-square",
-      "name": "Hospitality",
+      "name": "HOSPITALITY",
       "text": "The hospitality industry is a broad category of fields within the service industry that includes lodging, food and drink service, event planning, theme parks, travel and tourism. It includes hotels, tourism agencies, restaurants and bars."
     },
     {
       "icon": "fa fa-cart-plus",
-      "name": "Marketing",
+      "name": "MEDICAL & HEALTHCARE",
       "text": "The Marketing and Advertising Industry Sector comprises companies providing advertising, marketing or public relations services. The Industry Sector is a classification that describes the activity of an entity within the economy."
     }
   ],
   "Testimonials": [
     {
-      "heading": "Private Wealth - Relationship Manager",
-      "designation": "Designation - AVP/VP/SVP",
-      "payscale":"Payscale - Upto 50 lakh + Incentives",
-      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform                             ",
-      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
-      "link":"/manager.js"
-      
+      "id":1,
+      "heading": "Private Wealth - RM",
+      "knowledge":"Graduate – Any Post Graduate - Any MBA",
+      "experience": "Minimum of 7 years upto 20 years",
+      "keyResponsibilities1":"Cross-sell products and services to both new and as well as existing customers as per their lifestyle, risk profiling and requirements.",
+      "keyResponsibilities2":"Develop and manage the fund selection models",
+      "keyResponsibilities3":"Financial goal setting and planning and prepare investment proposals for the clients",
+      "keyResponsibilities4":"Ensuring highest levels of customer service to the customer acquired",
+      "keyResponsibilities5": "Knowledge of all the asset classes – equity, fixed income, structured products, real estate, FX and commodities",
+      "keyResponsibilities6": "Procuring the potential clients through networking, database, market analysis and references",
+      "link":"/Job1"
     },
     {
-      "heading": "Team Leader - Private Wealth",
-      "designation": "Designation - Associate Director / Director",
-      "payscale":"Payscale - Upto 75 Lakhs + Bonus",
-      "experience": "Experience: Minimum 10+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform & Team management experience of handling 6+ senior private bankers",
-      "location": "Location  Mumbai / Delhi / Bangalore / Chennai",
-      "link":"/manager.js"
+      "id":2,
+      "heading": "Marketing Head",
+      "knowledge":"Graduate / Postgraduate in any stream with above required skills",
+      "experience": "15+ years of experience in Brand Building across BFSI Domain",
+      "keyResponsibilities1":"Create mechanism for an organic pull for the brand with presence and engagement across organic domains.",
+      "keyResponsibilities2":"Identify and lead the brand towards news forms and mediums of communication keeping pace with the changing dynamics of marketing.",
+      "keyResponsibilities3":"Responsible for user on-boarding journey, increased engagement, churn management, insight led targeted communication to drive higher output.",
+      "keyResponsibilities4":"Build the core brand communication strategy which will form to be the corner stone of all brand-based messaging from launch and onwards.",
+      "keyResponsibilities5": "Managing the team of 8 members, Responsible for managing SEO, PR, Paid, campaigns sub department",
+      "keyResponsibilities6": "",
+      "link":"/Job2"
     },
     {
-      "heading": "Private Wealth - Relationship Manager",
-      "designation": "Designation - AVP/VP/SVP",
-      "payscale":"Payscale - Upto 50 lakh + Incentives",
-      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform",
-      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
-      "link":"/manager.js"
+      "id":3,
+      "heading": "Digital Lead IT",
+      "knowledge":"Bachelor degree in Information Technology or related disciplines.",
+      "experience": "Minimum 8 years of relevant experience in MNC / Startup environment, preferably in financial Industry.",
+      "keyResponsibilities1":"Evaluate the new digital solutions and define the architecture of the new solutions to support business growth..",
+      "keyResponsibilities2":"Plan and control the system design, development, testing and implementation of new solutions, as well as managing all technical related activities..",
+      "keyResponsibilities3":"Engage internal and external stakeholder to facilitate the change process and provide technical leadership in the design and development of new Digital solution.",
+      "keyResponsibilities4": "Hands on experience in full stack development in Microsoft .NET MVC, Angular JS and Angular II Tech Stack technologies. Backend technologies Oracle / MS SQL .",
+      "keyResponsibilities5":"",
+      "keyResponsibilities6": "",
+      "link":"/Job3"
     },
     {
-      "heading": "Content & Communication Specialist",
-      "designation": "Designation : Senior Manager / AVP",
-      "payscale":"Payscale : Upto 20 Lakhs",
-      "experience": "Experience: Minimum 5+ years in Content writing in Financial Services Industry                                                                                                                                               " ,
-      "location": "Location: Mumbai",
-      "link":"/manager.js"
+      "id":4,
+      "heading": "Content Writer",
+      "knowledge":"Bachelor’s degree in English Literature, communications, marketing, journalism, or a related field. MBA in Marketing is an added advantage.",
+      "experience": "8+ years of experience in writing and reviewing content preferably from the financial sector",
+      "keyResponsibilities1":"Manage the entire content portfolio across paid, organic, digital forms of communication through a team and self..",
+      "keyResponsibilities2":"Create a content strategy for the Brand which would be consumed across multiple channels in various formats..",
+      "keyResponsibilities3":"Create a content strategy for the Brand which would be consumed across multiple channels in various formats.",
+      "keyResponsibilities4":"Create a content strategy for the Brand which would be consumed across multiple channels in various formats.",
+      "keyResponsibilities5": "Proven record of excellent writing demonstrated in a professional portfolio and experience in blog posts, articles, video script, emails and social content.",
+      "keyResponsibilities6": "The candidate should be an expert in all things related to content and channel optimization, brand consistency,segmentation and localization, analytics, and meaningful measurement.",
+      "link":"/Job4"
     },
     
     {
-      "heading": "Private Wealth - Relationship Manager",
-      "designation": "Designation - AVP/VP/SVP",
-      "payscale":"Payscale - Upto 50 lakh + Incentives",
-      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform",
-      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
-      "link":"/manager.js"
+      "id":5,
+      "heading": "Digital Tech Developer",
+      "knowledge":"Knowledge of software development techniques and principals using a high-level programming language e.g. .NET MVC, C#, JavaScript, HTML, JQuery. Knowledge of web development, including customer journey definition and conversion to solution using the above languages as well as CSS, Bootstrap etc.",
+      "experience": "Minimum 4 years’ experience.",
+      "keyResponsibilities1":"Day-to-day management and smooth operation of various digital projects, including site launches, online tools, web applications and advertising / Marketing campaigns..",
+      "keyResponsibilities2":"Tech-savvy professional with an in-depth understanding of how technology can help us achieve our business goals..",
+      "keyResponsibilities3":"Collaborate with internal / External teams to design, develop and implement digital projects.",
+      "keyResponsibilities4":"Deliver projects on time ensuring quality standards are met.",
+      "keyResponsibilities5": "Experience in content management software such as Sitefinity. Experience of developing systems using Software Development Lifecycle (SDLC) standards.",
+      "keyResponsibilities6": "Digital Tech Developer (Implementation + Development)",
+      "link":"/Job5"
+      
     },
     {
-      "heading": "Private Wealth - Relationship Manager",
-      "designation": "Designation - AVP/VP/SVP",
-      "payscale":"Payscale - Upto 50 lakh + Incentives",
-      "experience": "Experience - Minimum 5+ Years of experience in wealth management sales role with leading bank or NBFC wealth management / Family office platform",
-      "location": "Location - Mumbai / Delhi / Bangalore / Chennai / Pune / Ahmedabad",
-      "link":"/manager.js"
+      "id":6,
+      "heading": "Wealth Operations",
+      "knowledge":"Has knowledge of MF related processes &amp; AMFI guidelines , Knowledge in Third-party products like PMS, Alternates, Structured Product, etc would be an added advantage",
+      "experience": "5-7 Years",
+      "keyResponsibilities1":"Handled daily morning process of download of RTA feeds, updating of transactions in Wealth Spectrum, reconciliation of transactions.",
+      "keyResponsibilities2":"Is capable of handling complex queries raised by branches in respect to MF transactions or processes",
+      "keyResponsibilities3":"Handled reconciliation of pending feeds and orders",
+      "keyResponsibilities4":"Handled Held-away masters and transactions upload",
+      "keyResponsibilities5": "Hands on experience of Wealth Spectrum systems preferred.",
+      "keyResponsibilities6": "",
+      "link":"/Job6"
+    },
+    {
+      "id":7,
+      "heading": "Market Risk Manager",
+      "knowledge":"Prefer Postgraduate",
+      "experience": "8 - 10 years of relevant work experience in Broking market risk management.",
+      "keyResponsibilities1":"Co-ordinating and providing data &amp; MIS with finance team, auditors.",
+      "keyResponsibilities2":"The role holder will interact regularly with teams of Front Office (Wealth Managers & Customer Service representatives), Legal & Compliance team, Operations team, Auditors (including Internal auditors, Concurrent auditors, etc.), Product & Services team, etc..",
+      "keyResponsibilities3":"Aware of the latest compliance and regulatory requirements at RMS level. (ASM & GSM, upfront margin collection & reporting, pledge &amp; repledge of shares).",
+      "keyResponsibilities4":"In depth understanding of market risk of securities markets and knowledge of regulatory (NSE/BSE &amp; SEBI) requirements.",
+      "keyResponsibilities5": "NSE, BSE Cash &amp; Equity Derivatives, Margin trading (MTF), Physical settlement in derivatives.",
+      "keyResponsibilities6": "The position is responsible for B2B marketing/channel partner marketing for Mutual Fund.",
+      "link":"/Job7"
+    },
+    {
+      "id":8,
+      "heading": "Channel Partner Marketing",
+      "knowledge":"MBA with relevant work experience in Marketing Communications or an equivalent Master’s Degree",
+      "experience": "Experience: 5 to 7 years on Marketing Sales support or B2B/Channel Partner Marketing",
+      "keyResponsibilities1":"Valuation matrix and report writing for companies within sector coverage.",
+      "keyResponsibilities2":"Interact with clients and company management and keep track on latest developments in the industry.",
+      "keyResponsibilities3":"Regularly update valuation matrix and circulate to mailing list.",
+      "keyResponsibilities4":"Co-ordinate with global research team ( Our AsiaTeam is a 60+ member globally)",
+      "keyResponsibilities5": "Good negotiation, networking and presentation skills , Excellent analytical &amp; reporting skills, Sound problem solving &amp; decision-making skills",
+      "keyResponsibilities6": "The position is responsible for B2B marketing/channel partner marketing for Mutual Fund.",
+      "link":"/Job8"
+    },
+    {
+      "id":9,
+      "heading": "Equity Research Analyst",
+      "keyResponsibilities6": "The role should be able to do equity research, analyze market which would help equity dealing room in generating business",
+      "knowledge":"2 years full time MBA from premier institute or CA or CFA",
+      "experience": "Experience : 5/6 to 10/12 years",
+      "keyResponsibilities5": "Strong quantitative and analytical abilities",
+      "keyResponsibilities1":"Valuation matrix and report writing for companies within sector coverage.",
+      "keyResponsibilities2":"Interact with clients and company management and keep track on latest developments in the industry.",
+      "keyResponsibilities3":"Regularly update valuation matrix and circulate to mailing list.",
+      "keyResponsibilities4":"Co-ordinate with global research team ( Our AsiaTeam is a 60+ member globally)",
+      "link":"/Job9"
     }
   ],
   "Team": [

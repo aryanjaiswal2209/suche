@@ -89,7 +89,10 @@ const Form = () => {
       <div className="form">
         <h1>Apply</h1>
         <div className="form-group">
-          <label htmlFor="">
+          
+        </div>
+        <div className="form-box">
+        <label htmlFor="">
             <center>Name ( Enter Full Name )</center>
           </label>
           <input
@@ -97,9 +100,9 @@ const Form = () => {
             name="Name"
             className="form-control"
             value={formData.Name}
+            placeholder="Enter Your Name"
             onChange={(e) => handleChange(e)}
           />
-        </div>
 
         {/* description */}
         <label htmlFor="">Email</label>
@@ -107,6 +110,7 @@ const Form = () => {
           name="Email"
           className="form-control"
           value={formData.Email}
+          placeholder="Enter Your Email"
           onChange={(e) => handleChange(e)}
         />
         <label htmlFor="">Enter previous job position</label>
@@ -114,6 +118,7 @@ const Form = () => {
           name="Lastjob"
           className="form-control"
           value={formData.Lastjob}
+          placeholder="Enter Your Previous Job"
           onChange={(e) => handleChange(e)}
         />
         <label htmlFor="">Enter the Company name of previous job </label>
@@ -121,6 +126,7 @@ const Form = () => {
           name="Lastcompany"
           className="form-control"
           value={formData.Lastcompany}
+          placeholder="Enter Your Previous Company Name"
           onChange={(e) => handleChange(e)}
         />
 
@@ -146,6 +152,7 @@ const Form = () => {
         <button className="submitButton" onClick={handlePublish}>
           Apply
         </button>
+        </div>
       </div>
     </>
   );

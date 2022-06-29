@@ -276,21 +276,24 @@ header .intro-text {
 }
 /* About Section */
 #about {
+  background-color: #101010;
   padding: 100px 0;
 }
 #about h3 {
   font-size: 22px;
   margin: 0 0 20px;
+  color: mintcream;
 }
 #about h2 {
   position: relative;
   margin-bottom: 15px;
   padding-bottom: 15px;
+  color: mintcream;
 }
 #about h2::after {
   position: absolute;
   content: "";
-  background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  /* background: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%); */
   height: 4px;
   width: 60px;
   bottom: 0;
@@ -301,6 +304,7 @@ header .intro-text {
   margin-left: 6px;
   list-style: none;
   padding: 0;
+  color: mintcream;
 }
 #about .about-text li:before {
   content: "\f00c";
@@ -309,6 +313,7 @@ header .intro-text {
   font-size: 14px;
   font-weight: 300;
   padding-right: 8px;
+  color: mintcream;
 }
 #about img {
   width: 520px;
@@ -320,11 +325,12 @@ header .intro-text {
 #about p {
   line-height: 24px;
   margin: 30px 0;
+  color: mintcream;
 }
 /* Services Section */
 #services {
   padding: 100px 0;
-  background:url(../img/solid-navy-blue-concrete-textured-wall.jpg) center center no-repeat;
+  background-color: #101010;
   color: #fff;
 }
 #services .service-desc {
@@ -348,7 +354,7 @@ header .intro-text {
   width: 120px;
   height: 120px;
   padding: 40px 0;
-  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  /* background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%); */
   border-radius: 50%;
   color: #fff;
   box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.05);
@@ -413,25 +419,35 @@ header .intro-text {
 .hover-bg:hover .hover-text {
   opacity: 1;
 }
-/* Testimonials Section */
+/* Testimonils Section */
 #testimonials {
-  padding: 100px 0;
-  background: #f6f6f6;
+  width: 100%;
+  padding: 70px 0;
+  background: #101010;
 }
+
 #testimonials i {
   color: #e6e6e6;
   font-size: 32px;
   margin-bottom: 20px;
 }
 .testimonial {
-  border: 0.5px solid black;
-  outline-style: solid;
+  /* border: 10px solid black; */
+  border-radius: 7px;
+  outline-style: ridge;
   position: relative;
-  display: flex;
-  padding: 20px;
-  margin-bottom: 15px;
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 13px;
+  background-color:  #101010;
+  box-shadow: 5px 5px 5px 5px black;
 
-}
+ }
+/* .testimonial :hover{
+  background-color: yellow;
+} */ 
+
+
 .testimonial-image {
   float: left;
   margin-right: 15px;
@@ -446,27 +462,42 @@ header .intro-text {
 .testimonial-content {
   position: relative;
   overflow: hidden;
+  background-color: #101010;
 }
 .testimonial-content h1{
-   color: black;
+   color: mintcream;
 }
 .testimonial-content a{
-  color: #333;
+  color: mintcream;
+  font-size: 18px;
+  font-weight: bold;
 }
+/* .testimonial-content a:hover{
+  background-color: black;
+} */
 .testimonial-content h1:hover{
   text-decoration: underline;
   cursor: pointer;
+
+  /* box-shadow: 10px 10px 5px 12px lightblue; */
+  
 }
 .testimonial-content p {
   margin-bottom: 0;
-  font-size: 14px;
-  font-style: italic;
+  font-size: 12px;
+  color: #333;
+}
+.testimonial-content li{
+  color: #333;
+}
+.section-title h2{
+  color: #da9100;
 }
 .testimonial-meta {
   margin-top: 10px;
   font-size: 15px;
   font-weight: 600;
-  color: #666;
+  color: #333;
 }
 /* Team Section */
 #team {
@@ -497,10 +528,8 @@ header .intro-text {
   color:white;
 }
 /* Contact Section */
-#contact {
-  padding: 0 60px;
-  background: white;
-  color: rgba(255, 255, 255, 0.75);
+#contact {  
+  background: #101010;
 }
 #contact .section-title {
   margin-bottom: 40px;
@@ -590,6 +619,9 @@ label {
 #contact .contact-item {
   margin: 20px 0;
 }
+#contact .contact-item a{
+  color: mintcream;
+}
 #contact .contact-item span {
   color: rgba(255, 255, 255, 1);
   margin-bottom: 10px;
@@ -599,9 +631,9 @@ label {
   margin-right: 10px;
 }
 #contact .social {
-  border-top: 1px solid rgba(255, 255, 255, 0.15);
-  padding-top: 50px;
-  margin-top: 50px;
+  /* border-top: 1px solid rgba(255, 255, 255, 0.15); */
+  /* padding-top: 25px; */
+  /* margin-top: 20px; */
   text-align: center;
 }
 #contact .social ul li {
@@ -614,7 +646,7 @@ label {
   height: 48px;
   padding: 12px 0;
   border: 2px solid black;
-  color:black;
+  color: #608dfd;
   border-radius: 50%;
   transition: all 0.3s;
 }

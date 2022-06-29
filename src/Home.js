@@ -1,15 +1,15 @@
 import React from 'react'
 import { useState, useEffect } from "react";
-import { Navigation } from "./components/navigation";
-import { Header } from "./components/header";
-import { OwlDemo } from "./components/owlDemo";
+import { Navigation } from "./components/Navigation/navigation";
 import { About } from "./components/about";
 import { Services } from "./components/services";
-
 import { Testimonials } from "./components/testimonials";
-// import { Team } from "./components/Team";
 import { Contact } from "./components/contact";
 import JsonData from "./data/data.json";
+import './App.css';
+import ImageSlider from './components/Slider/Slider';
+import { SliderData } from './components/Slider/SliderData';
+
 
 const Home = ({isSignedin,setIsSignedin}) => {
     const [landingPageData, setLandingPageData] = useState({});
@@ -20,13 +20,10 @@ const Home = ({isSignedin,setIsSignedin}) => {
   return (
     <div>
       <Navigation setAdminsignedin={setAdminsignedin}  isSignedin={isSignedin} setIsSignedin={setIsSignedin} />
-      {/* <Header data={landingPageData.Header} adminsignedin={adminsignedin} /> */}
-      <OwlDemo data={landingPageData.Header} adminsignedin={adminsignedin} />
-      {/* <Features data={landingPageData.Features} /> */}
+      <ImageSlider slides={SliderData} />
       <About data={landingPageData.About} />
       <Services data={landingPageData.Services} />
       <Testimonials data={landingPageData.Testimonials} />
-      {/* <Team data={landingPageData.Team} /> */}
       <Contact data={landingPageData.Contact} />
     </div>
   )

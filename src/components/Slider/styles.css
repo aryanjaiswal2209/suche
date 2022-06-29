@@ -1,0 +1,25 @@
+.header {
+    font-size: 40px;    
+    text-align: left;
+    position: absolute;    
+    top: 550;
+    bottom: 0;
+    left: 1000;
+    right: 0;
+    height: fit-content;
+    margin: auto;
+    color: #101010;
+      
+}
+.header h1{
+    border: 1px solid green;
+    background-color: #101010;
+    font-size: 20px;
+    color: mintcream;
+    font-family: "Raleway", sans-serif;
+}
+
+@keyframes slider {
+	0% { transform: translateX(0px); }
+	20% { transform: translateX(0px); }
+}
